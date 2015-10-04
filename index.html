@@ -3,9 +3,21 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="/css/style.css"/>
+
+    <script src="/js/Cell.js"></script>
+    <script src="/js/Field.js"></script>
+
     <script src="/js/Game.js"></script>
+
 </head>
 <body>
-
+<canvas id="container" width = "800" height = "800"></canvas>
 </body>
+<script>
+    var game = new Game("container");
+//    console.log(game);
+    game.draw();
+
+</script>
 </html>
