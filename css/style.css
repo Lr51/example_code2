@@ -3,3 +3,14 @@ html, body
     margin: 0;
     padding: 0;
 }
+
+#game-container
+{
+    background-color: #F0F9F9;
+}
+
+#wrapper
+{
+    width: 1000px;
+    margin: 0 auto;
+}

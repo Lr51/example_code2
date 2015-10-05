@@ -12,11 +12,15 @@
 
 </head>
 <body>
-<canvas id="container" width = "800" height = "800"></canvas>
+    <div id = "wrapper">
+        <h1>Game</h1>
+        <canvas id="game-container" width = "1000" height = "600"></canvas>
+
+    </div>
 </body>
 <script>
-    var game = new Game("container");
-//    console.log(game);
+    var game = new Game("game-container");
+    console.log(game);
     game.draw();
 
 </script>
